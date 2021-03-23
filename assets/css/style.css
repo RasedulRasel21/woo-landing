@@ -44,6 +44,7 @@ p {
   grid-template-columns: 1fr 6fr 3fr;
   padding: 55px 25px 55px 55px;
   grid-gap: 144px;
+  align-items: center;
 }
 
 .header-cart {
