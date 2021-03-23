@@ -24,6 +24,7 @@ h6 {
 a {
   text-decoration: none;
   font-family: Roboto;
+  font-weight: 400;
 }
 p {
   font-family: Roboto;
@@ -68,7 +69,7 @@ p {
   top: 54px;
 }
 .header-menu ul li a {
-  color: #000;
+  color: #272d4e;
   transition: 0.3s;
 }
 
@@ -206,6 +207,12 @@ p {
 }
 .d-bottom-left {
   margin-top: 25%;
+  margin-left: 80px;
+}
+.d-top-left::before {
+  content: url("../images/Ellipse\ 33.png");
+  transform: translate(-70%, 190%);
+  position: absolute;
 }
 .d-top-left img {
   margin-top: -50px;
@@ -228,15 +235,13 @@ p {
 .circle2 {
   transform: translate(0%, -178%);
 }
-.circle4 {
-  transform: translate(-70%, 300%);
-}
 .circle3 {
   transform: translate(-15%, -110%);
 }
-.d-img {
-  background-image: url("../images/Group\ 7.png");
-  background-repeat: no-repeat;
+.develop-top::before {
+  content: url("../images/Group\ 7.png");
+  position: absolute;
+  transform: translate(-8%, 83%);
 }
 .reviews {
   padding: 100px;
@@ -253,6 +258,7 @@ p {
 .reviews h1 {
   font-size: 55px;
   line-height: 70px;
+  color: #272d4e;
 }
 .r-slider {
   padding: 30px 80px 80px 80px;
@@ -331,11 +337,11 @@ p {
   display: grid;
   grid-template-columns: 3fr 1fr;
   padding: 78px 200px 78px 470px;
-  margin-top: -3px;
+  margin-top: -4px;
 }
 .cta-section h6 {
   color: #ffffff;
-  font-size: 36px;
+  font-size: 30px;
   max-width: 855px;
   margin: auto;
   font-weight: 500;
@@ -349,6 +355,7 @@ p {
 }
 .cta-left {
   align-self: center;
+  margin-left: 30px;
 }
 footer {
   background: #7854f7;
@@ -360,7 +367,7 @@ footer {
   grid-template-columns: 1fr 1fr 1fr;
   text-align: center;
   font-size: 20px;
-  padding: 30px 0;
+  padding: 50px 0;
 }
 .f-top-one {
   display: flex;
@@ -383,7 +390,7 @@ footer {
 .footer-bottom {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  padding: 0 200px 50px 200px;
+  padding: 0 300px 50px 300px;
   grid-gap: 50px;
 }
 .f-bottom-one {
@@ -403,6 +410,11 @@ footer {
   font-weight: 400;
   margin: 5px 0;
   color: rgb(237 240 253);
+}
+.f-circle::after {
+  content: url("../images/Ellipse\ 35.png");
+  transform: translate(270%, -125%);
+  position: absolute;
 }
 @media only screen and (max-width: 1300px) {
   .header-area {
