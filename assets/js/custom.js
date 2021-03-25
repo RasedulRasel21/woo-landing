@@ -18,7 +18,7 @@
 
 AOS.init({
   disable: function() {
-    var maxWidth = 991;
+    var maxWidth = 1700;
     return window.innerWidth < maxWidth;
   }
 });
@@ -31,20 +31,6 @@ $(document).ready(function(){
   $('.carousel').slick({
   slidesToShow: 1,
   dots:false,
-  responsive: [
-    {
-      breakpoint: 768,
-      settings: {
-        slidesToShow: 1,
-      },
-    },
-    {
-      breakpoint: 991,
-      settings: {
-        slidesToShow: 2,
-      },
-    },
-  ],
   prevArrow: '<span class="prev-arrow"><img src="./assets/images/left.png" alt=""></span>',
   nextArrow: '<span class="next-arrow"><img src="./assets/images/right.png" alt=""></span>',
   });
