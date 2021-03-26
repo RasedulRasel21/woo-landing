@@ -35,3 +35,14 @@ $(document).ready(function(){
   nextArrow: '<span class="next-arrow"><img src="./assets/images/right.png" alt=""></span>',
   });
 });
+
+//search
+$(document).ready(function() {
+  $('#close-btn').click(function() {
+    $('#search-overlay').fadeOut();
+    $('#search-btn').show();
+  });
+  $('#search-btn').click(function() {
+    $('#search-overlay').fadeIn();
+  });
+});
