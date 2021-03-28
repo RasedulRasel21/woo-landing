@@ -952,4 +952,7 @@ footer {
     grid-template-columns: 1fr;
     padding: 30px;
   }
+  .f-icon svg {
+    margin-right: 30px;
+  }
 }
